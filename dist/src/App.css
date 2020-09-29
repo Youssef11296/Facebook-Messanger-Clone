@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.App {
+  padding: 1rem 0;
+  width: 100vw;
+  text-align: center;
+}
+
+.app__form {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  background-color: #ccc;
+  z-index: 1000;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__iconButton {
+  flex: 0;
+}
